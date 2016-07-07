@@ -2,18 +2,21 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:500,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Nerd's</title>
   </head>
   <body>
     <header class="main-header">
-        <div class="container">
+        <div class="container clearfix">
           <div class="index-logo">
-            <img src="img/index-logo.png" width="" height="" alt="Nerd's">
+            <img src="img/index-logo.png" width="139" height="56" alt="Nerd's">
           </div>
           <nav class="main-navigation">
             <ul>
               <li>
-                <a href="#">Студия</a>
+                <a href="#" class="active">Студия</a>
               </li>
               <li>
                 <a href="#">Клиенты</a>
@@ -29,44 +32,120 @@
           <div class="basket">
             <a class="basket" href="#">Корзина</a>
           </div>
+          <div class="slider1">
+            <div class="header-slide1">Долго, дорого,<br> скрупулезно.</div>
+            <p class="slider1">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+            <a href="#" class="btn btn-slider">УЗНАТЬ БОЛЬШЕ</a>
+          </div>
         </div>
-        <div class="slider1">
-          <b class="header-slide1">Долго, дорого, скрупулезно.</b>
-          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.
-          <button>УЗНАТЬ БОЛЬШЕ</button>
-          <img src="picture-slide1.png" width="" height="">
-        </div>
-    </header>
+          </header>
     <main class="container">
-      <section class="features">
+      <section class="features clearfix">
         <div class="features-item">
+          <img src="img/Layer 10.png" width="240" height="124" alt="">
           <h2 class="features-name">ВЕБ-САЙТЫ</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <button>Заказать</button>
+          <a href="#" class="btn btn-features btn-features1">Заказать</a>
         </div>
         <div class="features-item">
+          <img src="img/Layer 11.png" width="240" height="124" alt="">
           <h2 class="feuteres-name">ПРИЛОЖЕНИЯ</h2>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <button>Заказать</button>
+          <a href="#" class="btn btn-features btn-features2">Заказать</a>
         </div>
         <div class="features-item">
+          <img src="img/Layer 12.png" width="240" height="124" alt="">
           <h2 class="feuteres-name">ПРЕЗЕНТАЦИИ</h2>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <button>Заказать</button>
+          <a href="#" class="btn btn-features btn-features3">Заказать</a>
         </div>
       </section>
-      <hr>
+      <div class="work clearfix">
       <div class="index-content-left">
-        <h3 class="index-content-title">Мы - маленькая, но горлая дизайн-студия из Краснодара</h3>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-        <p>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ.</p>
-        <ul class="index-content-work">
+        <div class="index-content-title">Мы - маленькая, но гордая<br> дизайн-студия из Краснодара</div>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический<br> расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+        <span>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ.</span>
+        <ul class="index-content-work-left">
           <li>Веб-сайтов любой сложности</li>
           <li>Мобильных приложений для iOS и Android</li>
           <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
       </div>
-    <div >
+      <div class="index-logo-since">
+        <img src="img/index-logo-since.png" width="240" height="119" alt="Nerd's">
+      </div>
+    <div class="index-content-work-right">
+      <span>КАК МЫ РАБОТАЕМ:</span>
+      <ul class="index-content-work-right1">
+        <li>С самоотдачей 146%</li>
+        <li>Соблюдая сроки на 100%</li>
+        <li>По предоплате 50%</li>
+      </ul>
+    </div>
     </div>
     </main>
+    <footer class="main-footer clearfix">
+      <div class="container clearfix">
+        <div class="footer-partner">
+          <a class="partner-btn " href="#">
+            <img  class="partner-btn-glukhanko" src="img/glukhanko.png" width="198" height="37" alt=""></a>
+          <a class="partner-btn" href="#">
+            <img class="partner-btn-htmlacademy" src="img/htmlacademy.png" width="199" height="70" alt=""></a>
+          <a class="partner-btn" href="#">
+            <img class="partner-btn-barbeshop" src="img/borodinski.png" width="209" height="90" alt=""></a>
+        </div>
+      </div>
+      <div class="map">
+        <div class="footer-map">
+            <img class="img" src="img/map.png" width="1200" height="416" alt="map">
+            <iframe class="if" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.3013741509347!2d30.32123257396212!3d59.93873372050114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1467050517082" width="1920" height="1080" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="footer-address">
+          <span>NЁRDS DESIGN STUDIO</span>
+          <p class="address">191186, Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
+          <p class="tel">тел. +7 (812) 275-75-75</p>
+          <button type="button" class="btn btn-address">НАПИШИТЕ НАМ</button>
+          </div>
+        </div>
+        </div>
+        <div class="container clearfix">
+        <div class="footer-social">
+          <a class="social-btn social-btn-vk" href="https://vk.com/id42604988"></a>
+          <a class="social-btn social-btn-fb" href="#"></a>
+          <a class="social-btn social-btn-inst" href="#"></a>
+          <div class="friend">Давайте дружить, это выгодно!</div>
+          <div class="sell">Скидка 10% для друзей из социальных сетей.</div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-content">
+      <div class="name"><span>Ваше имя:</span>
+        <form class="name-form" action="#" method="post">
+          <input class="name-form-in" name="name" type="text" placeholder="ПРЕДСТАВТЕСЬ, ПОЖАЛУЙСТА">
+      </div>
+
+      <div class="mail"><span>Ваш e-mail:</span>
+        <form class="email-form" action="#" method="post">
+          <input class="email-form-in" name="email" type="text" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА">
+      </div>
+      <div class="text-mess">
+        <span>Текст письма:</span>
+        <form class="text-form" action="#" method="post">
+          <textarea class="text-form-in" name="text" type="text" placeholder="В СВОБОДНОЙ ФОРМЕ"></textarea>
+      </div>
+      <button class="modal-content-close" type="button">Закрыть</button>
+      <button type="submit" class="btn btn-mess">ОТПРАВИТЬ</button>
+    </div>
+    <script>
+      var link = document.querySelector(".btn-address")
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+      link.addEventListener("click", function(evt){
+        popup.classList.add("modal-content-show");
+      });
+      close.addEventListener("click", function(e){
+        popup.classList.remove("modal-content-show");
+      });
+
+    </script>
   </body>
 </html>

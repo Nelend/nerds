@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-basket {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -5px;
+}
+
+.sprite--icon-basket-copy-3 {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -30px;
+}
+
+.sprite--icon-facebook {
+    width: 62px;
+    height: 63px;
+    background-position: -5px -55px;
+}
+
+.sprite--icon-facebook-copy {
+    width: 62px;
+    height: 62px;
+    background-position: -5px -128px;
+}
+
+.sprite--icon-facebook-copy-2 {
+    width: 62px;
+    height: 62px;
+    background-position: -5px -200px;
+}
+
+.sprite--icon-instagramm {
+    width: 62px;
+    height: 63px;
+    background-position: -5px -272px;
+}
+
+.sprite--icon-instagramm-copy {
+    width: 62px;
+    height: 62px;
+    background-position: -5px -345px;
+}
+
+.sprite--icon-instagramm-copy-2 {
+    width: 62px;
+    height: 62px;
+    background-position: -5px -417px;
+}
+
+.sprite--icon-vk {
+    width: 63px;
+    height: 63px;
+    background-position: -5px -489px;
+}
+
+.sprite--icon-vk-copy {
+    width: 63px;
+    height: 62px;
+    background-position: -5px -562px;
+}
+
+.sprite--icon-vk-copy-2 {
+    width: 63px;
+    height: 62px;
+    background-position: -5px -634px;
+}
+
+.sprite-slider1 {
+    width: 338px;
+    height: 231px;
+    background-position: -5px -706px;
+}
+
+.sprite-slider2 {
+    width: 230px;
+    height: 249px;
+    background-position: -5px -947px;
+}
+
+.sprite-slider3 {
+    width: 333px;
+    height: 319px;
+    background-position: -5px -1206px;
+}
