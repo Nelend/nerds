@@ -1,4 +1,3 @@
-test
 .sprite {
     background-image: url(spritesheet.png);
     background-repeat: no-repeat;
